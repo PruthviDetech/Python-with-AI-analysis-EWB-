@@ -1,0 +1,21 @@
+Student_ID,Name,Department,Maths,Physics,Chemistry,English,Computer_Science,Attendance
+S001,Aarav Sharma,CSE,92,88,85,79,96,94
+S002,Pruthvi Palve,CSE,85,78,74,82,91,90
+S003,Riya Deshmukh,IT,76,69,72,88,84,86
+S004,Kunal Patil,Mechanical,58,62,55,64,60,78
+S005,Sneha Kulkarni,CSE,95,91,89,93,98,97
+S006,Omkar Jadhav,ENTC,45,52,48,60,55,72
+S007,Priya Nair,IT,81,84,79,90,87,92
+S008,Rohan Gupta,Mechanical,38,42,35,55,40,65
+S009,Ananya Joshi,ENTC,72,75,68,80,77,88
+S010,Siddharth Rao,CSE,67,71,64,70,82,81
+S011,Meera Iyer,IT,88,82,90,85,89,95
+S012,Aditya Wankhede,Mechanical,49,44,51,58,46,70
+S013,Tanvi Bhosale,ENTC,63,66,59,74,68,83
+S014,Vikram Singh,CSE,79,83,77,72,90,87
+S015,Isha Thakur,IT,54,48,60,66,58,76
+S016,Harsh Mehta,Mechanical,70,65,72,68,63,84
+S017,Neha Pawar,ENTC,86,89,84,91,80,93
+S018,Yash Chavan,CSE,41,36,44,52,47,68
+S019,Kavya Menon,IT,74,70,78,83,85,89
+S020,Arjun Reddy,ENTC,60,57,62,69,65,79

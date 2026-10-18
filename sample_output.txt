@@ -1,0 +1,126 @@
+
+======================================================================
+1. DATASET OVERVIEW
+======================================================================
+Number of records : 20
+Number of columns : 9
+Columns           : ['Student_ID', 'Name', 'Department', 'Maths', 'Physics', 'Chemistry', 'English', 'Computer_Science', 'Attendance']
+
+First 5 records:
+  Student_ID            Name  Department  Maths  Physics  Chemistry  English  Computer_Science  Attendance
+0       S001    Aarav Sharma         CSE     92       88         85       79                96          94
+1       S002   Pruthvi Palve         CSE     85       78         74       82                91          90
+2       S003   Riya Deshmukh          IT     76       69         72       88                84          86
+3       S004     Kunal Patil  Mechanical     58       62         55       64                60          78
+4       S005  Sneha Kulkarni         CSE     95       91         89       93                98          97
+
+Missing values per column:
+Student_ID          0
+Name                0
+Department          0
+Maths               0
+Physics             0
+Chemistry           0
+English             0
+Computer_Science    0
+Attendance          0
+
+======================================================================
+2. STUDENT REPORT (Total, Average, Grade, Result)
+======================================================================
+Student_ID            Name Department  Total  Average Grade Result  Attendance
+      S001    Aarav Sharma        CSE    440     88.0     A   Pass          94
+      S002   Pruthvi Palve        CSE    410     82.0     A   Pass          90
+      S003   Riya Deshmukh         IT    389     77.8     B   Pass          86
+      S004     Kunal Patil Mechanical    299     59.8     D   Pass          78
+      S005  Sneha Kulkarni        CSE    466     93.2    A+   Pass          97
+      S006    Omkar Jadhav       ENTC    260     52.0     D   Pass          72
+      S007      Priya Nair         IT    421     84.2     A   Pass          92
+      S008     Rohan Gupta Mechanical    210     42.0     F   Fail          65
+      S009    Ananya Joshi       ENTC    372     74.4     B   Pass          88
+      S010   Siddharth Rao        CSE    354     70.8     B   Pass          81
+      S011      Meera Iyer         IT    434     86.8     A   Pass          95
+      S012 Aditya Wankhede Mechanical    248     49.6     E   Pass          70
+      S013   Tanvi Bhosale       ENTC    330     66.0     C   Pass          83
+      S014    Vikram Singh        CSE    401     80.2     A   Pass          87
+      S015     Isha Thakur         IT    286     57.2     D   Pass          76
+      S016     Harsh Mehta Mechanical    338     67.6     C   Pass          84
+      S017      Neha Pawar       ENTC    430     86.0     A   Pass          93
+      S018     Yash Chavan        CSE    220     44.0     F   Fail          68
+      S019     Kavya Menon         IT    390     78.0     B   Pass          89
+      S020     Arjun Reddy       ENTC    313     62.6     C   Pass          79
+
+======================================================================
+3. OVERALL PERFORMANCE
+======================================================================
+Overall class average : 70.11
+Highest average       : Sneha Kulkarni (93.2)
+Lowest average        : Rohan Gupta (42.0)
+
+======================================================================
+4. PASS / FAIL STATISTICS
+======================================================================
+Passed : 18
+Failed : 2
+Pass percentage : 90.00%
+
+Failed students:
+Student_ID        Name  Average
+      S008 Rohan Gupta     42.0
+      S018 Yash Chavan     44.0
+
+======================================================================
+5. GRADE DISTRIBUTION
+======================================================================
+Grade
+A     6
+A+    1
+B     4
+C     3
+D     3
+E     1
+F     2
+
+======================================================================
+6. SUBJECT-WISE ANALYSIS
+======================================================================
+         Subject  Highest  Lowest  Average  Passed  Failed
+           Maths       95      38    68.65      19       1
+         Physics       91      36    67.60      19       1
+       Chemistry       90      35    67.30      19       1
+         English       93      52    73.95      20       0
+Computer_Science       98      40    73.05      20       0
+
+Best subject (highest average)  : English (73.95)
+Weakest subject (lowest average): Chemistry (67.3)
+
+======================================================================
+7. TOP 3 PERFORMERS
+======================================================================
+Student_ID           Name Department  Average Grade
+      S005 Sneha Kulkarni        CSE     93.2    A+
+      S001   Aarav Sharma        CSE     88.0     A
+      S011     Meera Iyer         IT     86.8     A
+
+======================================================================
+8. DEPARTMENT-WISE ANALYSIS
+======================================================================
+            Students  Avg_Marks  Passed
+Department                             
+CSE                6      76.37       5
+ENTC               5      68.20       5
+IT                 5      76.80       5
+Mechanical         4      54.75       3
+
+======================================================================
+9. ATTENDANCE ANALYSIS
+======================================================================
+Average attendance : 83.35%
+Students with attendance below 75% : 4
+Student_ID            Name  Attendance
+      S006    Omkar Jadhav          72
+      S008     Rohan Gupta          65
+      S012 Aditya Wankhede          70
+      S018     Yash Chavan          68
+
+Processed data saved to students_result.csv
