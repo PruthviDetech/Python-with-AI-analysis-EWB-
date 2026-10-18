@@ -2,7 +2,7 @@
 
 A Python data-analysis project that reads student records from a CSV file and uses **NumPy** and **Pandas** to calculate totals, averages, grades, pass/fail status, subject-wise performance and top performers.
 
-**Student:** Pruthvi Palve (Roll No. B-49)
+**Student:** Pruthvi Palve
 **Course:** Python with AI, EWB Courses
 
 ## Project Structure
